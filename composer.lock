@@ -1,0 +1,60 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "e3dad485735fa4f4560260706d5cc2cf",
+    "packages": [
+        {
+            "name": "wpify/custom-fields",
+            "version": "3.12.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/wpify/custom-fields.git",
+                "reference": "64877865332a6d8c04ce100346b155f3d24b02b5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/wpify/custom-fields/zipball/64877865332a6d8c04ce100346b155f3d24b02b5",
+                "reference": "64877865332a6d8c04ce100346b155f3d24b02b5",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "php": ">=7.4||<=8.1"
+            },
+            "require-dev": {
+                "symfony/var-dumper": "^v5.4"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "functions.php"
+                ],
+                "psr-4": {
+                    "Wpify\\CustomFields\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "description": "WPify Custom Fields",
+            "support": {
+                "issues": "https://github.com/wpify/custom-fields/issues",
+                "source": "https://github.com/wpify/custom-fields/tree/3.12.5"
+            },
+            "time": "2024-02-05T10:02:51+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.6.0"
+}

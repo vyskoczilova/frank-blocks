@@ -1,0 +1,12 @@
+{
+    "name": "kv/frank-blocks",
+    "require": {
+        "wpify/custom-fields": "^3.12"
+    },
+    "authors": [
+        {
+            "name": "Karolína Vyskočilová",
+            "email": "karolina@kybernaut.cz"
+        }
+    ]
+}
